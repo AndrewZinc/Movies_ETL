@@ -29,7 +29,7 @@ The data columns were sanitized throught the use of a function - clean_movie.
 The function collected all alternate title data into a single column, and merged data from similarly-named columns into a single column.  These operations dramatically reduced the number of data columns - from 139 to 39.
 
 	```
-		# Create a clean movie function that takes in the argument, "movie".
+	# Create a clean movie function that takes in the argument, "movie".
 	def clean_movie(movie):
 		movie = dict(movie) # non-destructive copy of the movie-data
 		
